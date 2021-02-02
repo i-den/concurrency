@@ -22,3 +22,10 @@ Parallel - multiple cores each running a thread continuously
    - wait() and sleep()
  - dead
    - after task is finished
+   
+#### Daemon or Worker threads
+#### Daemon
+ - low priority thread that runs in the background
+ - terminated by JVM when all other worker threads are terminated
+ 
+ 
