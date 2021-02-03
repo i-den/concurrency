@@ -28,4 +28,6 @@ Parallel - multiple cores each running a thread continuously
  - low priority thread that runs in the background
  - terminated by JVM when all other worker threads are terminated
  
+ Shared heap memory, own stack memory
  
+ Intrinsic lock
