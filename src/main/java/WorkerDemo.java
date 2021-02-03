@@ -1,5 +1,3 @@
-import com.sun.corba.se.spi.orbutil.threadpool.Work;
-
 public class WorkerDemo {
 
     public static void main(String[] args) {

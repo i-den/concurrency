@@ -10,9 +10,11 @@ Local - not shared among threads. Less issues, threads don't interact much Share
 Sequential - happening in an order Concurrent - two events are concurrent if we cannot tell by looking at the program which will happen first.
 
 #### Semaphore
+// atomic long
 
 #### Non-determinism
-
+// functional prog
+vavr.io
 #### Mutex
 
 #### Multiplex 
