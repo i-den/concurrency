@@ -1,5 +1,11 @@
-public class SyncDemo1_1 {
+package t01;
+
+public class SyncDemo1_2 {
     private static int cnt = 0;
+
+    public static synchronized void increment() {
+        cnt++;
+    }
 
     public static void main(String[] args){
         Thread t1 = new Thread(new T1());
@@ -22,7 +28,7 @@ public class SyncDemo1_1 {
         @Override
         public void run() {
             for (int i = 1; i <= 1000; i++) {
-                cnt++;
+                increment();
             }
         }
     }
@@ -31,7 +37,7 @@ public class SyncDemo1_1 {
         @Override
         public void run() {
             for (int i = 1; i <= 1000; i++) {
-                cnt++;
+               increment();
             }
         }
     }

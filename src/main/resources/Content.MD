@@ -87,7 +87,7 @@ mutex . wait ()
 mutex . signal ()
 spaces . signal ()
 
-event . process ()
+event . processT ()
 ```
 Producer
 ```

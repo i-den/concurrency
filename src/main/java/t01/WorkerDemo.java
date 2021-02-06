@@ -1,3 +1,5 @@
+package t01;
+
 public class WorkerDemo {
 
     public static void main(String[] args) {
@@ -20,7 +22,7 @@ class Worker implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Worker#run on thread:" + Thread.currentThread().getName());
+        System.out.println("t01.Worker#run on thread:" + Thread.currentThread().getName());
     }
 }
 
@@ -34,7 +36,7 @@ class Daemon implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("Daemon#run on thread: " + Thread.currentThread().getName());
+            System.out.println("t01.Daemon#run on thread: " + Thread.currentThread().getName());
         }
     }
 }
