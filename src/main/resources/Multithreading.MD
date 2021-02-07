@@ -4,8 +4,8 @@ Both Processes and Threads are independent sequences of execution
 - instance of program execution
 
 #### Thread
-- light-weight processT
-- a unit of execution withing a given processT
+- light-weight process
+- a unit of execution withing a given process
 
 Processing time for a single core is shared among processes and threads - time slicing
 
@@ -23,8 +23,8 @@ Parallel - multiple cores each running a thread continuously
  - dead
    - after task is finished
    
-#### t01.Daemon or t01.Worker threads
-#### t01.Daemon
+#### Daemon or .Worker threads
+#### Daemon
  - low priority thread that runs in the background
  - terminated by JVM when all other worker threads are terminated
  
@@ -59,3 +59,9 @@ class C {
 
 #### Wait & Notify
 
+
+#### Volatile
+ - every read of a volatile variable will be read from the computer's main memory
+ - visibility problem: the updates of one thread are not visible to other threads
+ - http://tutorials.jenkov.com/java-concurrency/volatile.html
+ 
