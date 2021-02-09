@@ -1,4 +1,4 @@
-package t03_concepts;
+package t03_concepts.t03_02_Volatile;
 
 public class t03_01_Volatile_demo {
 
