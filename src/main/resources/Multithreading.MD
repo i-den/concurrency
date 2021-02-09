@@ -66,7 +66,7 @@ class C {
  - happens before
  
  If the boolean is not volatile there will be visibility issues
-[01_volatile]
+<img src="https://raw.githubusercontent.com/i-den/concurrency/master/src/main/resources/pictures/01_volatile.PNG">
 ```java
 class Exchanger {
     private Object object;
@@ -90,13 +90,13 @@ class Exchanger {
 
 
 #### Visibility guarantee
-[02_volatile]
+<img src="https://raw.githubusercontent.com/i-den/concurrency/master/src/main/resources/pictures/02_volatile.PNG">
  - writing to a volatile variable will cause that variable and all other variables visible to the thread to be written in the main memory
  - when a volatile variable is read this is from the main memory, any other variables visible to the thread will also be refreshed from the main memory
  
 Reordering
  - compiler and JVM can re-order the structure as long as it keeps its semantic meaning
-[03_volatile]
+<img src="https://raw.githubusercontent.com/i-den/concurrency/master/src/main/resources/pictures/03_volatile.PNG">
  - this might break the reads/writes from the memory
  
 Happens Before Guarantee
