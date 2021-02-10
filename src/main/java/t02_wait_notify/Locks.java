@@ -3,7 +3,7 @@ package t02_wait_notify;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class t02_03_Locks {
+public class Locks {
 
     public static void main(String[] args) {
         for (int i = 0; i < 1000; i++) {

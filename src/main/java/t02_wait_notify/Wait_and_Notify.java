@@ -1,6 +1,6 @@
 package t02_wait_notify;
 
-public class t02_01_wait_notify {
+public class Wait_and_Notify {
 
     public static void main(String[] args) {
         ProcessT processT = new ProcessT();

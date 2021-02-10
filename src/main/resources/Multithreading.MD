@@ -123,3 +123,9 @@ public class Counter {
     }   
 }
 ```
+
+#### Race Conditions
+ - two or more threads access the same section and the outcome is non-deterministic, its based on how the threads get scheduled to access them
+ 
+
+  

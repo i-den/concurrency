@@ -1,6 +1,6 @@
-package t03_concepts.t03_02_Volatile;
+package t03_concepts.Volatile;
 
-public class t03_01_Volatile_demo {
+public class VolatileDemo {
 
     public static void main(String[] args) {
         Worker w = new Worker();
