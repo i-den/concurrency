@@ -127,5 +127,10 @@ public class Counter {
 #### Race Conditions
  - two or more threads access the same section and the outcome is non-deterministic, its based on how the threads get scheduled to access them
  
-
-  
+#### Locks
+Reentrant locks, tryLock
+  - synchronized - single block, locks - called from multiple places
+  - lock() and unlock() provides same visibility and happens before guarantee as synchronized blocks
+  - synchronized blocks are always reentrant, locks can not be
+  - locks can guarantee fairness, synchronized blocks can't
+#### ExecutorService
