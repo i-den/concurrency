@@ -32,6 +32,8 @@ class Procezz {
     private int count = 0;
     private Lock lock = new ReentrantLock(true);
 
+    l
+    
     public void increment() {
        lock.lock(); // <-- here
         try {
