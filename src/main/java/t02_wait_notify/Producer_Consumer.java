@@ -3,7 +3,7 @@ package t02_wait_notify;
 import java.util.ArrayList;
 import java.util.List;
 
-public class t02_02_Producer_Consumer {
+public class Producer_Consumer {
 
     public static void main(String[] args) {
         Process p = new Process();
