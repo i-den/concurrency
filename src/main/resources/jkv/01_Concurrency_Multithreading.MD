@@ -1,3 +1,17 @@
+[01_Singletasking]
+ - just a single task running
+
+[02_Multitasking]
+ - each thread has its own task
+ - switching between threads / time-slice
+ 
+[03_Parallel_Multithread]
+
+
+When a CPU switches from executing one thread to executing another, the CPU needs to save the local data, program pointer etc. of the current thread, and load the local data, program pointer etc. of the next thread to execute. This switch is called a "context switch"
+
+
+
 Both Processes and Threads are independent sequences of execution
 
 #### Process
