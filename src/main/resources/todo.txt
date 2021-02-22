@@ -1,3 +1,6 @@
 // functional prog
 vavr.io
 // atomic long
+
+optionals
+blocking / non-blocking

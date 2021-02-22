@@ -1,12 +1,11 @@
-[01_Singletasking]
+<img src="https://raw.githubusercontent.com/i-den/concurrency/master/src/main/resources/pictures/jkv/01_Concurrency_Multithreading/01_Singletasking.png">
  - just a single task running
 
-[02_Multitasking]
+<img src="https://raw.githubusercontent.com/i-den/concurrency/master/src/main/resources/pictures/jkv/01_Concurrency_Multithreading/02_Multitasking.png">
  - each thread has its own task
  - switching between threads / time-slice
  
-[03_Parallel_Multithread]
-
+<img src="https://raw.githubusercontent.com/i-den/concurrency/master/src/main/resources/pictures/jkv/01_Concurrency_Multithreading/03_Parallel_Multithread.png">
 When a CPU switches from executing one thread to executing another, the CPU needs to save the local data, program pointer etc. of the current thread, and load the local data, program pointer etc. of the next thread to execute. This switch is called a "context switch"
 
 Both Processes and Threads are independent sequences of execution
