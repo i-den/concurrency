@@ -1,6 +1,6 @@
-package t01;
+package jkv.J01_Threads;
 
-public class WorkerDemo {
+public class J03_Worker_and_Daemon_Threads {
 
     public static void main(String[] args) {
         Thread d1 = new Thread(new Daemon());
@@ -18,11 +18,11 @@ class Worker implements Runnable {
     @Override
     public void run() {
         try {
-            Thread.sleep(3000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("t01.Worker#run on thread:" + Thread.currentThread().getName());
+        System.out.println("Worker#run on thread:" + Thread.currentThread().getName());
     }
 }
 
@@ -36,7 +36,7 @@ class Daemon implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("t01.Daemon#run on thread: " + Thread.currentThread().getName());
+            System.out.println("Daemon#run on thread: " + Thread.currentThread().getName());
         }
     }
 }

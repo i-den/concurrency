@@ -1,4 +1,4 @@
-package t02_wait_notify;
+package yt.t02_wait_notify;
 
 public class Wait_and_Notify {
 

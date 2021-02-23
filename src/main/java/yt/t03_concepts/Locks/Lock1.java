@@ -1,4 +1,4 @@
-package t03_concepts.Locks;
+package yt.t03_concepts.Locks;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

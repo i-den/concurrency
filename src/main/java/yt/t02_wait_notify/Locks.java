@@ -1,4 +1,4 @@
-package t02_wait_notify;
+package yt.t02_wait_notify;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -31,8 +31,6 @@ public class Locks {
 class Procezz {
     private int count = 0;
     private Lock lock = new ReentrantLock(true);
-
-    l
     
     public void increment() {
        lock.lock(); // <-- here

@@ -1,4 +1,4 @@
-package t03_concepts.Volatile;
+package yt.t03_concepts.Volatile;
 
 public class VolatileDemo {
 

@@ -1,4 +1,4 @@
-package t01;
+package yt.t01;
 
 public class SyncDemo1_2 {
     private static int cnt = 0;

@@ -1,4 +1,4 @@
-package t02_wait_notify;
+package yt.t02_wait_notify;
 
 import java.util.ArrayList;
 import java.util.List;

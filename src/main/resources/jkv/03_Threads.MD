@@ -1,4 +1,3 @@
-
 #### Thread States
  - new
    - when instantiated

@@ -1,4 +1,4 @@
-package t01;
+package yt.t01;
 
 public class RunnerDemo {
 
@@ -22,7 +22,7 @@ class RunnerA extends Thread {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("t01.RunnerA : " + i);
+            System.out.println("yt.t01.RunnerA : " + i);
         }
     }
 }
@@ -37,7 +37,7 @@ class RunnerB implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("t01.RunnerB : " + i);
+            System.out.println("yt.t01.RunnerB : " + i);
         }
     }
 }
