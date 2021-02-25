@@ -4,3 +4,5 @@ vavr.io
 
 optionals
 blocking / non-blocking
+
+project loom
