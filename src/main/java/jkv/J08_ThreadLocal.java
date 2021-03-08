@@ -1,4 +1,4 @@
-package jkv.J01_Threads;
+package jkv;
 
 public class J08_ThreadLocal {
 

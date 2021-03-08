@@ -6,3 +6,5 @@ optionals
 blocking / non-blocking
 
 project loom
+
+completeable futures

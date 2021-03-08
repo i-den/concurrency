@@ -1,4 +1,4 @@
-package jkv.J01_Threads;
+package jkv;
 
 import java.util.HashMap;
 import java.util.Map;
