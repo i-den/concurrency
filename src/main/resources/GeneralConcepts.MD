@@ -1,6 +1,5 @@
 #### General
-- Concurrency
-- Parallelism
+- Concurrency / Parallelism
 - Synchronization
  - critical section
  - race condition
