@@ -13,7 +13,7 @@ An application splits its tasks up into smaller subtasks which can be processed 
 ## Concurrent
 An application is making progress on multiple tasks seemingly at the same time (concurrently)
 
-<img src="https://raw.githubusercontent.com/i-den/concurrency/master/src/main/resources/pictures/general/03_Multitasking.png">
+<img src="https://raw.githubusercontent.com/i-den/concurrency/master/src/main/resources/pictures/general/03_Concurrency.png">
 
 ## Parallel and Concurrent
 Utilizes multiple processors that are splitting and executing tasks concurrently
