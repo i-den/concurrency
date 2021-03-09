@@ -1,13 +1,10 @@
 #### General
-- Concurrency / Parallelism
+- Process / Thread / Concurrency / Parallelism
+  - context switch
 - Synchronization
- - critical section
- - race condition
- - context switch
-- Process
-- Thread
-- Deadlock / Livelock / Busy Waiting
-- Starvation
+  - critical section
+  - race condition
+- Deadlock / Livelock / Busy Waiting / Starvation
 - Atomic / Compare-and-Swap / Optimistic / Pessimistic locking
 
 

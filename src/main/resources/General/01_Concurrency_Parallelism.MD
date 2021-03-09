@@ -1,3 +1,9 @@
+## Process
+- Task representing execution within the operating system, sharing as much resource as its given
+
+## Thread
+- A lightweight process running within a Process, sharing the resources that the Process has
+
 ## Primal Processing
 - just a single task running
 
