@@ -25,8 +25,7 @@
  
 #### Java
 - Thread Safety
-- Java Memory Model 
-- Sharing Objects
+- Java Memory Model / Sharing Objects
 - Immutability
 
 Synchronize
