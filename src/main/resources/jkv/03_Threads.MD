@@ -85,3 +85,5 @@ public class NotThreadSafe {
     }
 }
 ```
+
+Priority 0 - 10 (5 default)

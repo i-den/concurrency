@@ -1,4 +1,4 @@
-package jkv.J01_Threads;
+package jkv;
 
 public class J03_Worker_and_Daemon_Threads {
 

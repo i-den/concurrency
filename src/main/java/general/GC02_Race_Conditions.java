@@ -1,10 +1,9 @@
-package jkv.J01_Threads;
+package general;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class J04_Race_Conditions {
+public class GC02_Race_Conditions {
 
     public static void main(String[] args) {
         readModifyWrite();

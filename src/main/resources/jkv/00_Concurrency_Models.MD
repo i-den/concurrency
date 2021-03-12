@@ -1,5 +1,6 @@
 #### Shared State
 Shared state means that the different threads in the system will share some state among them. By state is meant some data, typically one or more objects or similar. When threads share state, problems like race conditions and deadlock etc. may occur. It depends on how the threads use and access the shared objects, of course.
+
 <img src="https://raw.githubusercontent.com/i-den/concurrency/master/src/main/resources/pictures/jkv/00_Concurrency_Models/01_Shared_State.png">
 
 #### Separate State
