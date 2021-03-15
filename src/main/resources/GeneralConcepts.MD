@@ -42,7 +42,6 @@ Synchronize
 
 
 Thread
- - state
  - properties (priority, name, state, identifier, group)
  - daemon
  - local/shared variables

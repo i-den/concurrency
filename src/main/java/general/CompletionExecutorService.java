@@ -1,4 +1,4 @@
-package yt.t04_executors;
+package general;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.CompletionService;
@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-public class J02_Executors_Future_Callable {
+public class CompletionExecutorService {
 
     public static void main(String[] args) {
         ExecutorService taskExecutor = Executors.newFixedThreadPool(3);
