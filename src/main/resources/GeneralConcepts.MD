@@ -36,8 +36,8 @@ Synchronize
   - happens before
 - locks
   - fair
-  - contention
-  - splitting/striping
+  - contention/splitting/striping
+  - conditions
 - ThreadLocal
 
 
